@@ -1,7 +1,7 @@
 var PORT = (process.env.PORT || 3000)
   , HOST = (process.env.VCAP_APP_HOST || 'localhost');
 
-// Extending EJS with a filter to format date using moment framework.
+// Extending EJS with a filter to format date using moment framework. But where is the Fibo code?
 ejs = require('ejs');
 moment = require('moment');
 ejs.filters.formatDueDate = function(date){
